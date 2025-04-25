@@ -7,17 +7,16 @@
 </head>
 <body>
 
+<form action="includes/signup.inc.php" method="post">
+    <input type="text" name="username">
+    <input type="password" name="pwd">
+    <button>Signup</button>
+</form>
+
 <?php
 
 
-$brand = "Volvo";
-$color = "Green";
 
-function getCarInfo($brand, $color){
-    echo "Brand:" . $brand . " Color:" . $color;
-}
-
-echo getCarInfo($brand, $color);
 ?>
     
 </body>
